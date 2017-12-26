@@ -1,3 +1,3 @@
-const { remindSpentTimeAndReport } = require('./src/slackbot');
+const { createremindSpentTimeAndReportJob } = require('./src/cronjob');
 
-remindSpentTimeAndReport();
+createremindSpentTimeAndReportJob();

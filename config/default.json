@@ -1,0 +1,22 @@
+{
+  "Slack": {
+    "token": "xoxb-290849949249-24g79ChW2MHwd5FQEsXR3Y2C",
+    "channelId": "C8JLTH3R6"
+  },
+  "Messages": {
+    "remindSpentTimeAndReport":  [
+      "<!here> Remember to spent time and report",
+      "Spent time in:https://trello.com/b/bcJFkq8o/scrum1",
+      "Template of daily report:",
+      "```",
+      "Achievements:\n-",
+      "Next day schedule:\n-",
+      "Free comments:\n-",
+      "```"
+    ]
+  },
+  "CronJob": {
+    "cronTime": "00 05 00 * * 1-5",
+    "timezone": "'Asia/Ho_Chi_Minh'"
+  }
+}
