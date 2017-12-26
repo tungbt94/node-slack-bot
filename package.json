@@ -1,0 +1,15 @@
+{
+  "name": "node-bot",
+  "version": "1.0.0",
+  "description": "A slack bot written by nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tungbt94 <tungbt94@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/client": "^3.15.0",
+    "config": "^1.28.1"
+  }
+}
