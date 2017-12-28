@@ -14,6 +14,14 @@ function remindSpentTimeAndReport() {
   .catch(console.error);
 }
 
+function remindDailyMeeting() {
+  web.chat.postMessage(channelId, config.Messages.remindDailyMeeting)
+  .then((res) => {
+    console.log('Full response: ', res);
+  })
+  .catch(console.error);
+}
+
 function sendFullMessage() {
   web.chat.postMessage(channelId, 'Hello there', {
     attachments: [
@@ -49,3 +57,4 @@ function sendFullMessage() {
 }
 
 module.exports.remindSpentTimeAndReport = remindSpentTimeAndReport;
+module.exports.remindDailyMeeting = remindDailyMeeting;

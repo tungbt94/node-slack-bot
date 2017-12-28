@@ -1,3 +1,5 @@
-const { createremindSpentTimeAndReportJob } = require('./src/cronjob');
+const { createRemindSpentTimeAndReportJob, createRemindDailyMeetingJob } = require('./src/cronjob');
 
-createremindSpentTimeAndReportJob();
+createRemindSpentTimeAndReportJob();
+createRemindDailyMeetingJob();
+
